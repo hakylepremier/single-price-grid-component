@@ -24,12 +24,18 @@
 				text-align: center;
 				position: fixed;
 				bottom: 10px;
-				left: 50%;
-				transform: translateX(-50%);
+				width: 100%;
 				color: #98a6bd;
 			}
 			.attribution a {
 				color: #2ab2af;
+			}
+			@media screen and (max-height: 800px) {
+				.attribution {
+					padding-top: 20px;
+					position: static;
+					transform: translateX(0);
+				}
 			}
 		</style>
 	</head>
