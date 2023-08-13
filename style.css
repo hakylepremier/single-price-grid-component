@@ -159,10 +159,9 @@ p {
 	.right {
 		border-radius: 0 0 var(--bdrd) var(--bdrd);
 	}
-}
-
-@media screen and (max-height: 800px) {
-	body {
-		padding-block: 10rem;
+	@media screen and (max-height: 800px) {
+		body {
+			padding-block: 10rem;
+		}
 	}
 }
